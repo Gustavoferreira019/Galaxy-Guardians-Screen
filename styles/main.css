@@ -1,0 +1,68 @@
+main{
+    align-self: end;
+}
+
+main div{
+    width: inherit;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main button{
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--text);
+    border-radius: 100%;
+    outline: 0;
+    margin-top: 30px;
+    height: 40px;
+    width: 40px;
+}
+
+button:disabled{
+    opacity: 0.5;
+}
+
+#member__name{
+    font-size: 80px;
+    font-family:'Star Guard Italic';
+    font-weight: 400;
+    color: transparent;
+    padding-right: 8px;
+}
+
+#member__name.peter {
+    background-clip: text;
+    background: var(--peter);
+    -webkit-background-clip: text;
+  }
+  
+  #member__name.gamora {
+    background-clip: text;
+    background: var(--gamora);
+    -webkit-background-clip: text;
+  }
+  
+  #member__name.drax {
+    background-clip: text;
+    background: var(--drax);
+    -webkit-background-clip: text;
+  }
+  
+  #member__name.mantis {
+    background-clip: text;
+    background: var(--mantis);
+    -webkit-background-clip: text;
+  }
+  
+  #member__name.rocket {
+    background-clip: text;
+    background: var(--rocket);
+    -webkit-background-clip: text;
+  }
+  
+  #member__name.groot {
+    background-clip: text;
+    background: var(--groot);
+    -webkit-background-clip: text;
+  }

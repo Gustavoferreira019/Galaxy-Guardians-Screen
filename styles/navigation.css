@@ -1,0 +1,48 @@
+#navigation{
+    position: fixed;
+    top:0;
+    right: -600px;
+    width: 600px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+#navigation.active{
+    right: 0;
+    transition: all 0.6s;
+}
+
+#navigation div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 40px;
+    padding: 72px 80px 0px;
+}
+
+#navigation div button{
+    border: 0;
+    background: transparent;
+}
+
+#navigation strong{
+    font-size: 32px;
+    margin-top: 66px;
+    margin-left: 20px;
+}
+
+#navigation div button img{
+    filter: grayscale(1);
+    opacity: 0.7;
+    transition: all 0.4s;
+}
+#navigation div button:hover{
+    cursor: pointer;
+}
+#navigation div button img:hover{
+    filter: grayscale(0);
+    opacity: 0.8;
+    transform: translateY(5px);
+}
